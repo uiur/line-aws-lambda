@@ -1,0 +1,11 @@
+{
+  "name": "line_test",
+  "description": "",
+  "memory": 128,
+  "timeout": 30,
+  "role": "arn:aws:iam::328632182478:role/service-role/simple_lambda",
+  "hooks": {
+    "build": "cp ../../package.json . && npm install --production",
+    "clean": "rm -rf node_modules package.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "line-aws-lambda",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node functions/echo/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2"
+  }
+}
