@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node functions/echo/index.js",
+    "test": "node functions/echo/index.js && node -c functions/random",
     "deploy": "apex deploy --env-file env.json"
   },
   "keywords": [],

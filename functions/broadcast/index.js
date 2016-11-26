@@ -54,7 +54,7 @@ exports.handle = (req, context, callback) => {
 
       findAllUsers().then(users => {
         const broadcasted = users
-          .filter(user => user.user_id != userId)
+          .filter(user => user.user_id !== userId)
           .map(user => {
             return push({ to: user.user_id, messages: [message.message] })
           })
